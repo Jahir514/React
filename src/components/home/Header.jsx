@@ -22,19 +22,19 @@ const Header = () => {
                     <button className="bg-primary py-3 px-6 rounded-r-md text-white text-xl text-bold absolute border border-primary hover:bg-transparent hover:text-primary transition">Search</button>
                 </div>
                 {/* icons */}
-                <div className="flex items-center justify-between lg:space-x-5">
-                    <div className="relative">
+                <div className="flex items-center justify-between space-x-5 text-center">
+                    <div className="relative text-center">
                         <FontAwesomeIcon icon={faHeart} className="text-2xl text-gray-700 hover:text-primary transition"> </FontAwesomeIcon>
                         <p className="text-xs text-gray-400">Wish list</p>
-                        <span className="absolute top-1 bg-primary right-0 w-5 h-5 text-sm rounded-full flex items-center justify-center text-white">5</span>
+                        <span className="absolute -top-1 bg-primary right-0 w-5 h-5 text-sm rounded-full flex items-center justify-center text-white">5</span>
                     </div>
-                    <div className="relative">
+                    <div className="relative ">
                         <FontAwesomeIcon icon={faShoppingBasket} className="text-2xl text-gray-700 hover:text-primary transition relative" />
                         <p className="text-xs text-gray-400">Cart</p>
-                        <span className="absolute top-1 bg-primary -right-2 w-5 h-5 text-sm rounded-full flex items-center justify-center text-white">3</span>
+                        <span className="absolute -top-1 bg-primary -right-2 w-5 h-5 text-sm rounded-full flex items-center justify-center text-white">3</span>
                     </div>
                     <div>
-                        <FontAwesomeIcon icon={faUser} className="h-6 text-sm text-gray-700 hover:text-primary transition relative" />
+                        <FontAwesomeIcon icon={faUser} className="h-6 text-sm text-gray-700 hover:text-primary transition" />
                         <p className="text-xs text-gray-400">Accounts</p>
                     </div>
                 </div>
